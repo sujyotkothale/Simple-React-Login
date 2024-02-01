@@ -1,0 +1,69 @@
+.Wrapper{
+    width: 340px;
+    color: whitesmoke;
+    background-color: transparent;
+    border: 2px solid rgb(136, 136, 136);
+    backdrop-filter: blur(8px);
+    border-radius: 28px;
+    padding: 20px 30px 20px 30px;
+}
+.Wrapper h1{
+    font-size: 52px;
+    text-align: center;
+}
+.Wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+  
+    margin: 30px 0;
+}
+
+.input-box input{
+    font-size: 15px;
+    padding: 20px 40px 20px 60px;
+    width: 100%;
+    height: 100%;
+    background:transparent;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+.input-box input::placeholder{
+    color: rgb(230, 222, 222);
+}
+
+.input-box .icon{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.forget{
+    padding-bottom: 20px;
+}
+.forget a{
+    color: white;
+}
+
+.Wrapper button{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(210, 210, 210);
+}
+.Wrapper button:hover{
+    background-color: rgb(32, 32, 32);
+    color: rgb(220, 220, 220);
+}
+.Wrapper .register-link{
+    padding-top: 10px;
+}
+.Wrapper .register-link a{
+    color: white;
+}
+
